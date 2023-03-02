@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+nav{
+    background-color: #efefef;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 10px 0;
+}
+nav.button{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border: 1px solid #ddd;
+    font-size: 25px;
+    cursor: pointer;
+}
+.Sidebar{
+    background-color: #fff;
+    width: 250px;
+    height: 100vh;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    text-align: center;
+    font-family: arial;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.3s;
+}
+
+.active{
+    transform: scaleX(1);
+}
+.Sidebar ul li a {
+    padding: 15px 0;
+    color: black;
+    display: block;
+}
+
+nav.cancel{
+    display: none;
+}
